@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tech Reviewer-Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Tech Reviewer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="feature.html">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catgory.html">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    <button type="button" class="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#SignUpModal">SignUp</button>
+    <button type="button" class="btn btn-outline-dark ms-2" data-bs-toggle="modal" data-bs-target="#LoginModal">Login</button>
+  </div>
+  </nav>
+
+<!--SignUp Modal -->
+<div class="modal fade" id="SignUpModal" tabindex="-1" aria-labelledby="SignUpModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="SignUpModalLabel">SignUp</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-3">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+  </div>
+  <div class="mb-3">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="mb-3">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+  </div>
+  <button type="button" class="btn btn-primary w-100">SignUp</button>
+</form>
+<p class="text-center ">Already have an account?<a href="#" class="text-decoration-none">Login</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Login Modal -->
+<div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="LoginModalLabel">Login</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <form>
+  <div class="mb-3">
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+  </div>
+  <div class="mb-3">
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <a href="#" class="text-center text-decoration-none">Forget password?</a>
+  <button type="button" class="btn btn-primary w-100 mt-2">Login</button>
+</form>
+<p class="text-center ">Don't have an account?<a href="#" class="text-decoration-none">SignUp</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/assets/tech1.jpg" class="d-block w-100" alt="loading" height="500">
+      <div class="carousel-caption d-none d-md-block carousel-fade">
+        <h5>EXPLORE. INNOVATE. REVIEW</h5>
+        <p>our trusted source for in-depth tech analysis and unbasied gadget reviews. Dive into the future of technology.</p>
+        <button class="btn btn-outline-danger">Read More</button>
+        <button class="btn btn-outline-primary">Latest</button>
+        <button class="btn btn-outline-success">Review</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/tech2.jpg" class="d-block w-100" alt="loading" height="500">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Best Gaming Headsets of 2025</h5>
+        <p>Tested and reviewed: immersive sound, crystal-clear mic quality, and comfort for marathon sessions.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/tech3.jpg" class="d-block w-100" alt="loading" height="500">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Our Top Tech Deep Dives</h5>
+        <p>Hand-selected articles exploring the latest breakthroughs in gadgets, software, and consumer tech trends.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h2 class="pb-2 border-bottom mt-3">Latest Reviews <i class="fa-solid fa-arrow-right"></i></h2>
+<div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5"> 
+  <div class="col"> 
+    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/s_watch.jpg'); background-size: cover; background-repeat: no-repeat;"> 
+    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sentinel Smartwatch Pro: THe Future on Your Wrist?</h3> 
+      <p>We put the highly anticipated Sentinel Smartwatch Pro through its paces. Does it redefines wearable tech?</p>
+      <a href="#" class="text-decoration-none">Read More</a>
+      <ul class="d-flex list-unstyled mt-auto"> 
+        <li class="me-auto"> 
+          <i class="fa-solid fa-microchip"></i>
+        </li> 
+        <li class="d-flex align-items-center me-3"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+            <use xlink:href="#geo-fill"></use>
+          </svg> 
+          <small>AI</small> 
+        </li> 
+        <li class="d-flex align-items-center"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+            <use xlink:href="#calendar3"></use>
+          </svg> 
+          <small>4d</small> 
+        </li> 
+      </ul> 
+    </div> 
+  </div> 
+</div> 
+<div class="col"> 
+  <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/earbuds.jpg'); background-size: cover; background-repeat: no-repeat;"> 
+    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1"> 
+      <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Elite: Immersive Audio, Anywhere</h3> 
+      <p>From noise cancellation to battery life, we test if theEchoPods Elite live up to their premium price tag.</p>
+      <a href="#" class="text-decoration-none">Read More</a>
+      <ul class="d-flex list-unstyled mt-auto"> 
+        <li class="me-auto"> 
+          <i class="fa-solid fa-headset"></i>
+        </li> 
+        <li class="d-flex align-items-center me-3"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+            <use xlink:href="#geo-fill"></use>
+          </svg> <small>Gadgets</small> 
+        </li> 
+        <li class="d-flex align-items-center"> 
+          <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+            <use xlink:href="#calendar3"></use>
+          </svg> 
+          <small>5d</small> 
+        </li> 
+      </ul> 
+    </div> 
+  </div> 
+</div> 
+  <div class="col"> 
+    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('assets/laptop.jpg'); background-size: cover; background-repeat: no-repeat;"> 
+      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"> 
+        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">QuantumBook X1: Power Meets Portability</h3> 
+         <p>Is the QuantumBook X1 the ultimate productivity mchine for creatives and professionals on the go?</p>
+         <a href="#" class="text-decoration-none">Read More</a>
+        <ul class="d-flex list-unstyled mt-auto"> 
+          <li class="me-auto"> 
+          <i class="fa-solid fa-globe"></i>
+          </li> 
+          <li class="d-flex align-items-center me-3"> 
+            <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Location">
+              <use xlink:href="#geo-fill"></use>
+            </svg> 
+            <small>Technology</small> 
+          </li> 
+          <li class="d-flex align-items-center"> 
+            <svg class="bi me-2" width="1em" height="1em" role="img" aria-label="Duration">
+              <use xlink:href="#calendar3"></use>
+            </svg> 
+            <small>3d</small> 
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+  </div> 
+</div>
+  
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> 
+    <p class="col-md-4 mb-0 text-body-secondary">© 2025 Company, Inc</p> 
+    <ul class="nav col-md-4 justify-content-end"> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-body-secondary">Features</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-body-secondary">About</a>
+      </li> 
+    </ul> 
+  </footer> 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+  </body>
+</html>
