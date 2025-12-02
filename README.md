@@ -1,5 +1,4 @@
-# 💻 Tech Reviewer: Modern Blog and 
-Review Website 
+# 💻 Tech Reviewer: Modern Blog and Review Website 
 
 # 📝 Live Demo Link: 
 https://disheta-techblog.netlify.app/
