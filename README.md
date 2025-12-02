@@ -39,9 +39,7 @@ links and copyright information cleanly.
 1. **Bootstrap CDN Integration:** The project relies on linking the Bootstrap CSS and JS 
 bundles via CDN in the <head> and <body>, ensuring all styles and interactive 
 functionality are instantly available. 
-2. **Semantic Layout:** Key sections are wrapped in appropriate HTML5 tags (<nav>, 
-<header>, <div>, etc.) combined with Bootstrap classes for maximum accessibility and 
-readability. 
+2. **Semantic Layout:** Key sections are wrapped in appropriate HTML5 tags (<nav>, <header>, <div>, etc.) combined with Bootstrap classes for maximum accessibility and readability. 
 3. **Bootstrap Grid Mastery:** Used responsive prefixes (.col-lg-, .col-md-) extensively to 
 control column stacking and alignment at different viewport breakpoints. 
 4. **Utility Classes:** Relied on spacing (e.g., .mb-3, .me-md-2), text alignment 
